@@ -1,0 +1,30 @@
+{
+  "name": "PlaywrightFirstSteps",
+  "version": "1.0.0",
+  "description": "npm i -D @playwright/test\r # install supported browsers\r npx playwright install",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "REGRESSION": "playwright test",
+    "textAssertion": "playwright test 1.textAssertion.spec.js --headed",
+    "colorAssertion": "playwright test 2.colorAssertion.spec.js --headed",
+    "searchTest": "playwright test 3.searchTest.spec.js --headed",
+    "sortTest": "playwright test 4.sortTest.spec.js --headed",
+    "shopPathTest": "playwright test 5.shopPathTest.spec.js --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxeleron/PlaywrightFirstSteps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxeleron/PlaywrightFirstSteps/issues"
+  },
+  "homepage": "https://github.com/maxeleron/PlaywrightFirstSteps#readme"
+}
