@@ -14,7 +14,7 @@
     "repository": "playwright test 2.Repository.spec.js --headed",
     "userrespositories": "playwright test 3.UserRepositories.spec.js --headed",
     "repositoryinfo": "playwright test 4.RepositoryInfo.spec.js --headed",
-    "fifth": "playwright test 5.fapi.spec.js --headed"
+    "userinfo": "playwright test 5.UserInfo.spec.js --headed"
   },
   "keywords": [],
   "author": "",
