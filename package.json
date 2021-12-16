@@ -10,7 +10,7 @@
   },
   "scripts": {
     "REGRESSION": "playwright test",
-    "first": "playwright test 1.api.spec.js --headed",
+    "issues": "playwright test 1.Issues.spec.js --headed",
     "second": "playwright test 2.bapi.spec.js --headed",
     "third": "playwright test 3.capi.spec.js --headed",
     "fourth": "playwright test 4.dapi.spec.js --headed",
