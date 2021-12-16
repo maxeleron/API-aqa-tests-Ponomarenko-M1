@@ -1,30 +1,22 @@
 {
-  "name": "PlaywrightFirstSteps",
+  "name": "APIaqatestsPonomarenkoM1",
   "version": "1.0.0",
   "description": "npm i -D @playwright/test\r # install supported browsers\r npx playwright install",
-  "main": "index.js",
   "directories": {
     "test": "tests"
   },
-  "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@playwright/test": "1.17.1"
+  },
   "scripts": {
     "REGRESSION": "playwright test",
-    "textAssertion": "playwright test 1.textAssertion.spec.js --headed",
-    "colorAssertion": "playwright test 2.colorAssertion.spec.js --headed",
-    "searchTest": "playwright test 3.searchTest.spec.js --headed",
-    "sortTest": "playwright test 4.sortTest.spec.js --headed",
-    "shopPathTest": "playwright test 5.shopPathTest.spec.js --headed"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maxeleron/PlaywrightFirstSteps.git"
+    "first": "playwright test 1.api.spec.js --headed",
+    "second": "playwright test 2.bapi.spec.js --headed",
+    "third": "playwright test 3.capi.spec.js --headed",
+    "fourth": "playwright test 4.dapi.spec.js --headed",
+    "fifth": "playwright test 5.fapi.spec.js --headed"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/maxeleron/PlaywrightFirstSteps/issues"
-  },
-  "homepage": "https://github.com/maxeleron/PlaywrightFirstSteps#readme"
+  "license": "ISC"
 }
