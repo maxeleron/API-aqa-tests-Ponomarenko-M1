@@ -14,7 +14,8 @@
     "repository": "playwright test 2.Repository.spec.js --headed",
     "userrespositories": "playwright test 3.UserRepositories.spec.js --headed",
     "repositoryinfo": "playwright test 4.RepositoryInfo.spec.js --headed",
-    "userinfo": "playwright test 5.UserInfo.spec.js --headed"
+    "userinfo": "playwright test 5.UserInfo.spec.js --headed",
+    "files": "playwright test 6.Files.spec.js --headed"
   },
   "keywords": [],
   "author": "",
