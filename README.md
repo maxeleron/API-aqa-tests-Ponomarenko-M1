@@ -1,17 +1,15 @@
-# PlaywrightFirstSteps
+# API-aqa-tests-Ponomarenko-M1
 
+# Installation
+Simply run 'npm install'
 
-# Installation of Playwright
-npm i -D @playwright/test
-# install supported browsers
-npx playwright install
-
-# Different runs
-npx playwright test
-npx playwright test --headed
-npx playwright test --browser=firefox
-npx playwright test --browser=all
-
-
-npx playwright test 'second test' --headed
-npx playwright test colorAssertion.spec.js --headed
+# Usage
+1. Insert YOUR GITHUB API TOKEN to playwright.config.js (line 13)
+2. Run tests:
+    "npm run REGRESSION"
+    "npm run issues"to run 1.Issues.spec.js
+    "npm run repository" to run playwright test 2.Repository.spec.js
+    "npm run userrespositories" to run playwright test 3.UserRepositories.spec.js
+    "npm run repositoryinfo" to run playwright test 4.RepositoryInfo.spec.js
+    "npm run userinfo" to run playwright test 5.UserInfo.spec.js
+    "npm run files" to run playwright test 6.Files.spec.js
