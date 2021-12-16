@@ -11,7 +11,7 @@
   "scripts": {
     "REGRESSION": "playwright test",
     "issues": "playwright test 1.Issues.spec.js --headed",
-    "second": "playwright test 2.bapi.spec.js --headed",
+    "repository": "playwright test 2.Repository.spec.js --headed",
     "third": "playwright test 3.capi.spec.js --headed",
     "fourth": "playwright test 4.dapi.spec.js --headed",
     "fifth": "playwright test 5.fapi.spec.js --headed"
